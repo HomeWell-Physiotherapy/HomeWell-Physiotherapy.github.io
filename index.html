@@ -289,30 +289,33 @@
                     </div> <!-- section title -->
                 </div>
             </div> <!-- row -->
+
+            
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form">
-                        <form id="contact-form" action="assets/contact.php" method="post" data-toggle="validator">
+
+                        <input type="hidden" name="access_key" value="c79ed03d-945e-4190-9c15-ef5e5070dbfe">
+
+
+                        <form action="https://api.web3forms.com/submit" method="POST" data-toggle="validator">
+
+                            <input type="hidden" name="access_key" value="c79ed03d-945e-4190-9c15-ef5e5070dbfe">
+
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="single-form form-group">
-                                        <input type="text" name="name" placeholder="Your Name" data-error="Name is required." required="required">
+                                        <input type="text" name="name" placeholder="Your Name" data-error="Please tell us your name." required="required">
                                         <div class="help-block with-errors"></div>
                                     </div> <!-- single form -->
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="single-form form-group">
                                         <input type="email" name="email" placeholder="Your Email" data-error="Valid email is required." required="required">
                                         <div class="help-block with-errors"></div>
                                     </div> <!-- single form -->
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="single-form form-group">
-                                        <input type="text" name="subject" placeholder="Subject" data-error="Subject is required." required="required">
-                                        <div class="help-block with-errors"></div>
-                                    </div> <!-- single form -->
-                                </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12">
                                     <div class="single-form form-group">
                                         <input type="text" name="phone" placeholder="Phone" data-error="Phone is required." required="required">
                                         <div class="help-block with-errors"></div>
@@ -320,10 +323,11 @@
                                 </div>
                                 <div class="col-md-12">
                                     <div class="single-form form-group">
-                                        <textarea placeholder="Your Mesaage" name="message" data-error="Please, leave us a message." required="required"></textarea>
+                                        <textarea placeholder="Your Message" name="message" data-error="Please, leave us a message." required="required"></textarea>
                                         <div class="help-block with-errors"></div>
                                     </div> <!-- single form -->
                                 </div>
+                                <input type="hidden" name="redirect" value="https://web3forms.com/success">
                                 <p class="form-message"></p>
                                 <div class="col-md-12">
                                     <div class="single-form form-group text-center">
