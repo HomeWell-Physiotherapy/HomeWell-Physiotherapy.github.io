@@ -763,7 +763,9 @@ p {
 ===========================*/
 .contact-area {
   padding-top: 120px;
-  padding-bottom: 120px; }
+  padding-bottom: 120px; 
+  background-color: #f4f6f7;
+}
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .contact-area {
       padding-top: 100px;
