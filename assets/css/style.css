@@ -291,12 +291,12 @@ p {
       .navgition .navbar .navbar-social {
         position: absolute;
         right: 70px;
-        top: 7px; } }
+        /*top: 7px;*/ } }
     @media (max-width: 767px) {
       .navgition .navbar .navbar-social {
         position: absolute;
         right: 60px;
-        top: 7px; } }
+        /*top: 7px*/; } }
     .navgition .navbar .navbar-social span {
       font-size: 16px;
       font-weight: 700;
