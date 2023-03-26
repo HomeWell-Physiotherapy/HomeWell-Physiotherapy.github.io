@@ -154,6 +154,18 @@ p {
 /*===========================
     2.HEADER css 
 ===========================*/
+
+.navgition .phone {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding: 10px 0;
+  text-transform: uppercase;
+  position: relative;
+  transition: all 0.3s ease-out 0s;
+  color:#0067f4;
+}
+
 /*===== NAVBAR ONE =====*/
 .navgition {
   padding: 10px 0;
@@ -761,6 +773,11 @@ p {
 /*===========================
     6.CALL TO ACTION css 
 ===========================*/
+
+.contact-area .phone {
+  color:#0067f4;
+}
+
 .contact-area {
   padding-top: 120px;
   padding-bottom: 120px; 
@@ -841,8 +858,8 @@ p.form-message.error {
   background-color: #f4f6f7; }
 
 .footer-widget {
-  padding-top: 90px;
-  padding-bottom: 120px; }
+  padding-top: 40px;
+  padding-bottom: 40px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .footer-widget {
       padding-top: 70px;
