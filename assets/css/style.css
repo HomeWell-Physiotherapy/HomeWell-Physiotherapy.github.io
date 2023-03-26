@@ -519,6 +519,13 @@ p {
     .services-image .image img {
       width: 100%; }
 
+      .services-area .main-btn {
+        border-radius: 50px;
+        background-color: #0067f4;
+        color: #fff; }
+        .services-area .main-btn:hover {
+          background-color: #005ad5; }
+
 /*===========================
       4.PRICING css 
 ===========================*/
